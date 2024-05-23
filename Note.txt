@@ -1,0 +1,49 @@
+Commands#########
+1.git --version 
+for check which version
+
+2.for check all the file and folders-ls
+
+3.check the directory-pwd
+
+
+4.Configuring git:-
+a.git config --global user.name "my name"
+c.git config --global user.gmail "my mail"
+3.git config --list
+
+5.Check branch- git branch -a
+
+6.To check hidden file-ls -a
+
+7. To push many file proces:
+a.create repository with readme file
+b. git clone <repository>
+c.git init
+d.git add .
+e.git commit -m "comment"
+f.git branch -a
+g.git remote add origin <git link>
+h.git push -u origin main
+if we get error:
+git checkout -b my-new-branch
+git add .
+git commit -m "comment"
+git push -u origin my-new-branch
+
+8.if we accces inner file
+cd filename
+
+9.if we exit the file
+cd ..
+
+10.delete branch
+git branch -d old-branch
+
+11.remove untracked file
+git clear -f
+if inside a subfolder
+git clear -f folderpath
+
+12. for display ans
+cat filename
